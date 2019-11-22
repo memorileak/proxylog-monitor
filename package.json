@@ -10,6 +10,8 @@
   "author": "Tung Nguyen",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
+    "config": "^3.2.4",
     "cron": "^1.7.2"
   },
   "devDependencies": {
