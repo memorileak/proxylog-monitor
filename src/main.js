@@ -94,6 +94,6 @@ module.exports = function() {
     // Reset exceed_warned everyday
     new CronJob('0 0 0 * * *', () => {exceed_warned = false}, null, true);
 
-    const job = new CronJob('0 * * * * *', check_exceed_limit_usage, null, false);
-    job.start();
+    // Check usage exceed every hours
+    new CronJob('0 0 * * * *', check_exceed_limit_usage, null, true);
 };
