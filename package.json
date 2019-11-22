@@ -1,0 +1,18 @@
+{
+  "name": "proxylog-monitor",
+  "version": "1.0.0",
+  "description": "Monitor service for Elastic Search Proxy log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tung Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

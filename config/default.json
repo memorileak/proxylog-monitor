@@ -1,0 +1,5 @@
+{
+    "recipient": "root@client",
+    "log_url": "https://search-es-proxy-log-ztaqcunr4vmwxitm2mwdzowrle.ap-southeast-1.es.amazonaws.com",
+    "from_header": "Proxylog Monitor <root@monitor>"
+}
