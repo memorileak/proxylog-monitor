@@ -61,7 +61,7 @@ function check_exceed_limit_usage(on_warned) {
             }).then(() => {on_warned()}, err => {console.error("SEND_MAIL", err)});
         }
     }, err => {
-        console.error("CALCULATE_BANDWIDTH_USAGE", err)
+        console.error("CHECK_EXCEED_LIMIT_USAGE", err);
     })
 }
 

@@ -5,7 +5,6 @@ const {Readable} = require('stream');
 const recipient = config.get('recipient');
 const from_header = config.get('from_header');
 
-
 function send_mail({mail_title, mail_content}) {
     return new Promise((resolve, reject) => {
         const send_m = spawn('mail', ['-a', `from: ${from_header}`,'-s', mail_title, recipient]);
