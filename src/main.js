@@ -19,7 +19,7 @@ module.exports = function() {
     }, null, true);
 
     // Daily report
-    new CronJob('0 0 0 * * *', () => {
+    new CronJob('59 59 23 * * *', () => {
         daily_report();
     }, null, true);
 
